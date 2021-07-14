@@ -1,0 +1,34 @@
+html {
+    margin: 0;
+    width: 100%;
+    background-color: #ffe600;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.flag {
+    height: 20px;
+}
+
+.logoBig {
+    height: 223px;
+    width: 249px;
+    justify-self: end;
+    align-self: center;
+    padding-right: 3%;
+}
+
+.countryList {
+    margin-left: 3%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.countryList, li {
+    list-style-type: none;
+}
