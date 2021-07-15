@@ -9,7 +9,7 @@ function Search(props) {
     }
 
     function handleEnter(e) {
-        if (e.key == 'Enter') {
+        if (e.key === 'Enter') {
             handleCallback()
         }
     }
