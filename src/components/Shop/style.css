@@ -47,6 +47,7 @@
     height: 100%;
     justify-content: center;
     width: 100%;
+    text-align: center;
 }
 
 .logoSearch{
@@ -107,4 +108,32 @@
     font-size: 0.9rem;
     color: rgb(162, 162, 162);
     margin-left: 5px;
+}
+
+@media (max-width: 599px) {
+    .searchBar {
+        width: 100%;
+        flex-direction: column;
+        padding: 0%;
+    }
+    .logoSearch {
+        margin-top: 15px;
+    }
+    #userInput {
+        margin: auto;
+        margin-top: 10px;
+    }
+    .boton {
+        margin-top: 10px;
+        width: 100px;
+        margin-bottom: 15px;
+    }
+    .article {
+        width: 100%;
+    }
+    .articleBox {
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 2fr));
+        padding: 2%;
+        grid-auto-rows: 18rem;
+    }
 }

@@ -17,8 +17,8 @@ html {
 .logoBig {
     height: 223px;
     width: 249px;
-    justify-self: end;
     align-self: center;
+    justify-self: end;
     padding-right: 3%;
 }
 
@@ -31,4 +31,19 @@ html {
 
 .countryList, li {
     list-style-type: none;
+}
+
+@media (max-width: 599px) {
+    .app {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .countryList {
+        margin: 25px 0 0 0;
+        padding: 0;
+    }
+    .logoBig {
+        padding: 0%;
+    }
 }
